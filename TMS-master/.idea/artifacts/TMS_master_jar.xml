@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="TMS-master:jar">
+    <output-path>$PROJECT_DIR$/../traffic_output/artifacts/TMS_master_jar</output-path>
+    <root id="archive" name="TMS-master.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/TMS/src/View/Resource/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="TMS-master" />
+    </root>
+  </artifact>
+</component>
